@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>simple-html2canvas-jsPDF</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/jspdf.min.js"></script>
+  <script type="text/javascript" src="js/html2canvas.min.js"></script>
+</head>
+<body>
+	<div id="div">
+		<p>hello world</p>
+	</div>
+	<button onclick="javascript:html2pdf('div', 'canvas', 'img', 'outputBlock', 'test')">Run</button>
+	<canvas id="canvas">Here is canvas!</canvas>
+	<div id="outputBlock">
+		<img id="img" alt="Here is image!"/>	
+	</div>
+
+	<script type="text/javascript" src="js/html2pdf.js"></script>
+</body>
+</html>

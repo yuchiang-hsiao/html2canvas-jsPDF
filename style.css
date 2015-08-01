@@ -1,0 +1,22 @@
+#div {
+	background: #777777;
+	width: 200px;
+}
+
+#div p {
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	color: #FFFFFF;
+}
+
+#canvas {
+	border: 1px solid black;
+}
+
+button {
+	display: block;
+	width: 100px;
+	height: 30px;
+	margin-bottom: 20px;
+}
