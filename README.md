@@ -1,4 +1,4 @@
-# simple-html2canvas-jsPDF
+# html2canvas-jsPDF
 html -> canvas -> image -> pdf
 
 [html2canvas](http://html2canvas.hertzen.com)、[jsPDF](https://parall.ax/products/jspdf) 的簡易實作。
